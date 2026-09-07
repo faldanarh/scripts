@@ -29,7 +29,7 @@ A quick overview of the file layout to help users navigate your code.
 Common errors and how to resolve them quickly.
 
 * **Error:** `Permission denied` when running shell scripts.
-  * **Fix:** Execute `chmod +x scripts/script_name.sh` to grant execution permissions.
+  * **Fix:** Execute `chmod +x <script_name>` to grant execution permissions.
 * **Error:** `ModuleNotFoundError: No module named '...'`
   * **Fix:** Ensure your virtual environment is active and run `pip install -r requirements.txt`.
 
