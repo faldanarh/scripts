@@ -8,7 +8,7 @@ ticket. Given one or more `OHSS-NNNNN` keys, it:
    *Issue Summary* / *Current Summary* section when present).
 3. Looks up the cluster in OCM to resolve the subscription, creator account,
    customer username/email, and EBS account ID.
-4. Posts a notification to a Slack incoming webhook (can be optional).
+4. Posts a notification to a Slack incoming webhook [#mcs-global](https://redhat.enterprise.slack.com/archives/C01676GAH51) (can be optional).
 5. Adds a comment back to the Jira ticket with the collected customer details,
    the OCM console link, and the Slack thread reference.
 
